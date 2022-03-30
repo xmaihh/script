@@ -56,6 +56,12 @@ enable = true
      cron "* */60 * * * *" script-path=xxx.js # 每60分执行一次
      ```
 
+   > `cron`表达式说明
+
+   > `* * * * *` 表示：分 时 日 月 周
+   
+   > `* * * * * *` 表示：秒 分 时 日 月 周
+
 ## 感谢
 
 [@chavyleung](https://github.com/chavyleung)
