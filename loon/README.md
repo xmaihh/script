@@ -5,8 +5,7 @@
 
 ## 完整配置文件
 
-- [loon_config.conf](https://github.com/xmaihh/script/tree/main/loon/loon_config.conf)
-
+- [loon_config.conf](https://raw.githubusercontent.com/xmaihh/script/main/loon/loon_config.conf)
 
 ## 感谢
 
