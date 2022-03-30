@@ -7,8 +7,9 @@
 *.v2ex.com
 
 [Script]
-http-request ^https:\/\/www\.v2ex\.com\/mission\/daily script-path=https://raw.githubusercontent.com/xmaihh/script/main/loon/script/v2ex/v2ex.cookie.js
-cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/xmaihh/script/main/loon/script/v2ex/v2ex.js
+http-request ^https:\/\/www\.v2ex\.com\/mission\/daily script-path=https://raw.githubusercontent.com/xmaihh/script/main/loon/script/v2ex/v2ex.cookie.js, timeout=10, tag=v2ex.cookie.js
+cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/xmaihh/script/main/loon/script/v2ex/v2ex.js, tag=v2ex.js
+enable = true
 ```
 
 ## 说明
